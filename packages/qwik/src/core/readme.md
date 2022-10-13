@@ -129,7 +129,7 @@ The `obs` passed into the `watchFn` is used to mark `state.count` as a property 
 
 # `useMount`
 
-Register a server mount hook that runs only in the server when the component is first mounted.
+Register's a hook to execute code when the component is mounted into the rendering tree (on component creation).
 
 ### Example
 
